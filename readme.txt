@@ -1,0 +1,1 @@
+This is an attempt to learn pytest and REST APIs using Python.
