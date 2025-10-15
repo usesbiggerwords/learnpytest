@@ -7,4 +7,5 @@ def generate_page(json_data, mapping):
     t = loader.get_template('default.html')
     context_data = {k: json_data[v] for k, v in mapping}
     c = Context(context_data)
-    t.render(c)
+    result = t.render(c)
+    print(result)
